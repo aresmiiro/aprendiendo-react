@@ -1,8 +1,8 @@
-import './App.css'
-import { useMovies } from './hooks/useMovies.js'
-import { Movies } from './components/Movies.jsx'
-import { useState, useEffect, useRef, useCallback } from 'react'
 import debounce from 'just-debounce-it'
+import { useCallback, useEffect, useRef, useState } from 'react'
+import './App.css'
+import { Movies } from './components/Movies.jsx'
+import { useMovies } from './hooks/useMovies.js'
 
 function useSearch () {
   const [search, updateSearch] = useState('')

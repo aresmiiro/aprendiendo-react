@@ -26,7 +26,6 @@ form {
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
- 
   width: 100%;
   gap: 32px;
 }
@@ -35,7 +34,8 @@ form {
   text-align: center;
 }
 
-.movie h3, .movie p {
+.movie h3,
+.movie p {
   margin: 0;
 }
 
